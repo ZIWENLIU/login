@@ -57,7 +57,7 @@
         from sys_resource limit #{start}, #{count}
     </select>
 
-    <!-- 删除 -->
+    <!-- 通过id删除 -->
     <delete id="delete" parameterType="java.lang.Integer">
         delete
         from sys_resource

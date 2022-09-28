@@ -46,6 +46,7 @@
         from sys_user
     </select>
 
+
     <!-- 分页查询 -->
     <select id="findByPage" resultMap="UserResultMap">
         select *

@@ -41,7 +41,7 @@
         where name = #{name}
     </select>
 
-    <!-- 查询所有 -->
+    <!-- 查询所有角色 -->
     <select id="findAll" resultMap="RoleResultMap">
         select *
         from sys_role

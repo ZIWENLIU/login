@@ -46,7 +46,7 @@
             VALUE (#{userName}, 1);
     </insert>
 
-    <!-- 登录次数+1 -->
+    <!-- 登录次数加1 -->
     <update id="addLogin">
         update sys_login_count
         set count = count + 1

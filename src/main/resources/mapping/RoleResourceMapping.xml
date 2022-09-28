@@ -30,4 +30,5 @@
         from sys_role_resource
         where role_id = #{roleId}
     </delete>
+
 </mapper>

@@ -15,7 +15,6 @@
             VALUE (#{userRole.roleId},#{userRole.userId});
     </insert>
 
-
     <!-- 根据角色id查询角色对应的资源ID -->
     <select id="findByUserId" parameterType="java.lang.Integer" resultType="java.lang.Integer">
         select role_id
