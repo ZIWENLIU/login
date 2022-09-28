@@ -15,7 +15,6 @@ public class BeanCopyUtil {
             BeanUtil.copyProperties(source, targetBean);
         }
     }
-
     public static <T> T copy(Object source, Class<T> clazz) {
         if (null != source) {
             T t = BeanUtil.toBean(source, clazz);

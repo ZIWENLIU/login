@@ -16,4 +16,5 @@ public class JSONUtil {
     public static <T> T toBean(String json, Class<T> beanClass){
         return cn.hutool.json.JSONUtil.toBean(json,beanClass);
     }
+
 }
