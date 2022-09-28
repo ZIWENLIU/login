@@ -8,7 +8,6 @@ import java.util.List;
 
 @Mapper
 public interface ResourceMapper {
-
     /**
      * 保存资源信息
      *

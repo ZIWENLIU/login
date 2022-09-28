@@ -77,6 +77,7 @@ public class GithubAuthenticationSuccessHandler extends SavedRequestAwareAuthent
             roleList.add(1);
             userService.grantRole2User(userId,roleList);
         }
+
         //登录次数 +1
         userService.addLogin(username);
         //将 authention 信息打包成json格式返回

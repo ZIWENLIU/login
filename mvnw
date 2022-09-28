@@ -136,6 +136,7 @@ if [ -z "$JAVA_HOME" ]; then
   fi
 fi
 
+
 if [ -z "$JAVACMD" ] ; then
   if [ -n "$JAVA_HOME"  ] ; then
     if [ -x "$JAVA_HOME/jre/sh/java" ] ; then

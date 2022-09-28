@@ -43,6 +43,7 @@ public interface UserService extends UserDetailsService {
 
     public Integer countLogin(String userName, String tokenId);
 
+
     public List<LoginRecord> findAllLoginInfo();
 
 

@@ -14,7 +14,6 @@ public interface RoleResourceMapper {
      * @param roleResource
      */
     void save(@Param("roleResource") RoleResource roleResource);
-
     /**
      * 根据角色id查询角色对应的资源列表
      *

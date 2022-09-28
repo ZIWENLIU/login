@@ -88,6 +88,7 @@ public class DataSourceConfig {
         if (maxPoolPreparedStatementPerConnectionSize != null) {
             datasource.setMaxPoolPreparedStatementPerConnectionSize(Integer.parseInt(maxPoolPreparedStatementPerConnectionSize));
         }
+
         return datasource;
     }
 }

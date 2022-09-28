@@ -13,7 +13,6 @@ public interface RoleService {
      * @param role
      * @return
      */
-
     int save(@Param("role") Role role);
 
     /**

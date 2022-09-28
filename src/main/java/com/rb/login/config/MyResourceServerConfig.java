@@ -40,6 +40,7 @@ public class MyResourceServerConfig extends ResourceServerConfigurerAdapter {
                 // 暂时禁用CSRF，否则无法提交登录表单
                 .csrf().disable();
     }
+
     public MyAuthenticationSuccessHandler loginSuccessHandler(){
         return new MyAuthenticationSuccessHandler();
     }

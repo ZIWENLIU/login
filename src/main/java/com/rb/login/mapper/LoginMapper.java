@@ -14,7 +14,6 @@ public interface LoginMapper {
      * @param tokenId
      */
     void saveLogin(@Param("userName")String userName, @Param("tokenId") String tokenId);
-
     /**
      * 根据用户名称和tokenId查询记录条数
      * @param userName

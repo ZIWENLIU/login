@@ -14,7 +14,6 @@ public interface RoleMapper {
      * @param role
      */
     Integer save(@Param("role") Role role);
-
     /**
      * 更新角色信息
      *

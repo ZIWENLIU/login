@@ -29,7 +29,6 @@ import static com.rb.login.util.BeanCopyUtil.copyList;
 @RestController
 @RequestMapping("/data")
 public class DataController {
-
     @Autowired
     private UserService userService;
     @Autowired

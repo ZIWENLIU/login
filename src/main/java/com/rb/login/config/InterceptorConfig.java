@@ -14,7 +14,6 @@ import java.util.Arrays;
 public class InterceptorConfig implements WebMvcConfigurer {
     @Autowired
     private UserService userService;
-
 //    @Resource
 //    private AuthenticationInterceptor authenticationInterceptor;
 

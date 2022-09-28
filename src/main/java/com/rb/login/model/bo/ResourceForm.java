@@ -9,4 +9,5 @@ public class ResourceForm {
     private String url;
     private String code;
     private String method;
+
 }

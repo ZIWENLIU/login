@@ -64,6 +64,7 @@ public class MyAuthenticationSuccessHandler extends SavedRequestAwareAuthenticat
             //根据用户名称和tokenId保存 登录信息
             userService.saveLogin(username,token.getValue());
         }
+
         //登录次数 +1
         userService.addLogin(username);
         //将 authention 信息打包成json格式返回

@@ -210,6 +210,7 @@ public class UserServicelmpl implements UserService {
         return loginMapper.countLogin(userName, tokenId);
     }
 
+
     @Override
     public List<LoginRecord> findAllLoginInfo() {
         return loginMapper.findAll();

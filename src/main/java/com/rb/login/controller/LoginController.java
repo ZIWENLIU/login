@@ -24,4 +24,5 @@ public class LoginController {
     public List<LoginRecord> findAllResources(){
         return userService.findAllLoginInfo();
     }
+
 }

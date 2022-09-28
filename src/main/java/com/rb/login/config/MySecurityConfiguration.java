@@ -18,7 +18,6 @@ public class MySecurityConfiguration extends WebSecurityConfigurerAdapter {
     private UserService userService;
     @Autowired
     private MyAuthenticationSuccessHandler myAuthenticationSuccessHandler;
-
     /**
      * 配置.忽略的静态文件，不加的话，登录之前页面的css,js不能正常使用，得登录之后才能正常.
      */

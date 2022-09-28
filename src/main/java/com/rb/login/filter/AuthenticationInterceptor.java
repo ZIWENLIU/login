@@ -65,6 +65,7 @@ public class AuthenticationInterceptor implements HandlerInterceptor {
         String tokenId = request.getHeader(TOKEN_NAME);
         return tokenId;
     }
+
     @Override
     public void afterCompletion(HttpServletRequest request, HttpServletResponse response, Object handler, @Nullable Exception ex) throws Exception {
     }

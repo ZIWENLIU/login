@@ -14,7 +14,6 @@ public interface UserRoleMapper {
      * @param userRole
      */
     void save(@Param("userRole") UserRole userRole);
-
     /**
      * 根据用户id查询用户对应的角色列表
      *
